@@ -8,13 +8,13 @@ public class FixerBedWars1058 extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        if (Bukkit.getPluginManager().isPluginEnabled("BedWars1058")) {
+        if (!Bukkit.getPluginManager().isPluginEnabled("BedWars1058")) {
             getLogger().severe("BedWars1058 was not found. Disabling...");
             setEnabled(false);
             return;
         }
 
-        Bukkit.getPluginManager().registerEvents(new PlayerReSpawnListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerReSpawnListener(this), this);
     }
 
     @Override
