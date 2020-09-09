@@ -6,7 +6,7 @@
 
     <groupId>me.stefan923</groupId>
     <artifactId>fixerbedwars1058</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
 
     <dependencies>
@@ -20,6 +20,7 @@
             <groupId>com.andrei1058.bedwars</groupId>
             <artifactId>bedwars-api</artifactId>
             <version>20.7</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

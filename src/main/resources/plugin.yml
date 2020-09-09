@@ -1,6 +1,6 @@
 name: FixerBedWars1058
-version: 1.0.0
+version: 1.0.1
 main: me.stefan923.fixerbedwars1058.FixerBedWars1058
-description: Adds a fully customizable flight system to Minecraft.
+description: Fixes some bugs for BedWars1058 plugin.
 softdepend: [BedWars1058]
 authors: [Stefan923]
